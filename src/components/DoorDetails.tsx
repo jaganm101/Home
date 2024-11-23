@@ -2,9 +2,11 @@ import { useState } from 'react';
 import { Door } from '../types/Index';
 
 const doors: Door[] = [
-    { image: '/Home/images/green_door.png', alt: 'Main Door', description: 'முக்கிய கதவு' },
-    { image: '/Home/images/white_door.png', alt: 'Master Bedroom Door', description: 'மாஸ்டர் படுக்கையறை கதவு' },
-    { image: '/Home/images/green_door.png', alt: 'First Bedroom Door', description: 'முதல் படுக்கையறை கதவு' },
+    // { image: '/Home/images/green_door.png', alt: 'Main Door', description: 'முக்கிய கதவு' },
+    { image: '/Home/images/green_door.png', alt: 'Master Bedroom Door', description: 'மாட்டியில் உள்ள படுக்கையறையின் கதவு' },
+    { image: '/Home/images/white_door.png', alt: 'First Bedroom Door', description: 'முதல் படுக்கையறை கதவு' },
+    { image: '/Home/images/bathroom_door.png', alt: 'bathrrom', description: 'மேலும் கீழும் உள்ள குளியலறையின் கதவு' },
+    { image: '/Home/images/white_door.png', alt: 'First Bedroom Door', description: 'இரண்டாவது படுக்கையறையின் கதவு' },
 ];
 function DoorDetails() {
     const [selectedDoor, setSelectedDoor] = useState<number | null>(null);
