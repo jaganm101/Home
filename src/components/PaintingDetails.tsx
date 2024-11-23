@@ -1,6 +1,3 @@
-// PaintingSection.jsx
-import React from 'react';
-
 const PaintingSection = () => {
     return (
         <div className="painting-section">
