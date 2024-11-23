@@ -7,15 +7,18 @@ import Home from './Home';
 import PaintingDetails from './PaintingDetails';
 import DoorDetails from './DoorDetails';
 
+// Base path (matches vite.config.js)
+const BASE_PATH = import.meta.env.BASE_URL || '/';
+
 function App() {
     return (
-        <Router>
+        <Router basename={BASE_PATH}>
             <Header />
             <div className="container">
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/painting-details" element={<PaintingDetails />} />
-                    <Route path="/door-details" element={<DoorDetails />} />
+                    <Route path="painting-details" element={<PaintingDetails />} />
+                    <Route path="door-details" element={<DoorDetails />} />
                 </Routes>
             </div>
             <Footer />
