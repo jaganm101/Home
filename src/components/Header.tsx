@@ -7,12 +7,12 @@ function Header() {
             <nav>
                 <ul className="list-unstyled d-flex justify-content-center">
                     <li className="mx-3">
-                        <Link to="/painting-details" className="text-white text-decoration-none">
+                        <Link to="./painting-details" className="text-white text-decoration-none">
                             பைண்டிங் விவரங்கள்
                         </Link>
                     </li>
                     <li className="mx-3">
-                        <Link to="/door-details" className="text-white text-decoration-none">
+                        <Link to="./door-details" className="text-white text-decoration-none">
                             கதவு விவரங்கள்
                         </Link>
                     </li>
