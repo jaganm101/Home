@@ -34,7 +34,7 @@ function Home() {
                                     உங்கள் வீடு மற்றும் அறைகளுக்கு ஏற்ற வண்ண தேர்வுகளை எவ்வாறு செய்ய வேண்டும் என்று
                                     அறியவும். இந்த செயலி உங்கள் வீட்டின் ஓவிய வடிவமைப்பை தனிப்பயனாக்க உதவும்.
                                 </p>
-                                <a href="/Home/painting-details" className="btn btn-primary">
+                                <a href="./painting-details" className="btn btn-primary">
                                     மேலும் அறிய
                                 </a>
                             </div>
@@ -55,7 +55,7 @@ function Home() {
                                     உங்கள் வீட்டு கதவுகளுக்கான சிறந்த தேர்வுகளை எப்படி செய்வது என்பதை அறியவும்.
                                     இந்த செயலி உங்கள் வீட்டு கதவுகளின் அழகையும் தனித்துவத்தையும் காட்ட உதவும்.
                                 </p>
-                                <a href="/Home/door-details" className="btn btn-primary">
+                                <a href="./door-details" className="btn btn-primary">
                                     மேலும் அறிய
                                 </a>
                             </div>
